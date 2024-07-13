@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sandith Kariyawasam</title>
+<link href="css/Style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <!-- Navigation Bar Code -->
+
+    <header class="header">
+        <h2 class="logo">BLACK</h2>
+
+        <nav class="navbar">
+            <a id="hom">Home</a>
+            <a id="abo">About</a>
+            <a id="ser">Services</a>
+            <a id="port">Portfolio</a>
+            <a id="con">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home part Code -->
+
+    <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Sandith Kariyawasam</h1>
+                <h3>And I'm a <span id="element"></span></h3>
+
+                <button class="btn-donate" id="downloadBtn">
+                        Download CV
+                </button>
+                <button class="btn-donate" id="navigateBtn">
+                    Contact Me
+                </button>
+            </div>
+            <div class="home-img">
+                <img src="img/IMG-20230928-WA000.jpg">
+            </div>
+    </section>
+    <section class="social reveal" id="social">
+        <h3>Let's Talk</h3><br><br>
+        <div class="back">
+            <a href="https://x.com/sandith001?s=21">
+            <button class="btn1">
+                <span>Twitter</span>
+            </button></a>
+
+            <a href="https://www.facebook.com/share/Eat6jzk3kNMykj6n/?mibextid=JRoKGi">
+            <button class="btn2">
+                <span>Facebook</span>
+            </button></a>
+
+            <a href="https://www.instagram.com/sandith.kariyawasam?igsh=MXg3dHl0YTE3cHkzbA%3D%3D&utm_source=qr">
+            <button class="btn3">
+                <span>Instagram</span>
+            </button></a>
+
+            <a href="https://www.linkedin.com/in/sandith-kariyawasam-352069255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+            <button class="btn4">
+                <span>Linkedin</span>
+            </button></a>
+
+            <a href="https://github.com/SandithKariyawasam">
+            <button class="btn5">
+                <span>GitHub</span>
+            </button></a>
+        </div>
+    </section>
+
+    <!-- About part -->
+
+    <section class="about reveal" id="about">
+        <div class="about-img">
+            <img src="img/DSC_4723.jpg">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span id="element">Me</span></h2>
+            <p class="details">
+                Hi, I am Sandith Kariyawasam, 
+                a 23-year-old from Sri Lanka. 
+                My academic journey began at Sri Sumangala Boys' College, 
+                and I am currently pursuing higher education at NSBM Green University as Software Engineering student, 
+                having started in 2023 and expecting to graduate in 2026. Alongside my studies, 
+                I work as a freelancer, specializing in web development and app development, as well as UI/UX design. </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>HTML/CSS</span><br>Build Websites</li>
+                    <li><span>JavaScript</span><br>Build Websites and apps</li>
+                    <li><span>Node js</span><br>Backend development</li>
+                    <li><span>Boostrap</span><br>Build Websites</li>
+                    <li><span>React & Angular</span><br>Build Websites</li>
+                    <li><span>PHP & Java</span><br>Backend development</li>
+                    <li><span>Flutter(Dart)</span><br>Apps development </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023-Current</span><br>Team lead at University final project group.</li>
+                    <li><span>Freelancer</span><br>Work as a frontend web developer</li>
+                    <li><span>.......</span><br>............</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2007-2020</span><br>Sri Sumangala college</li>
+                    <li><span>2023-current</span><br>NSBM Green university</li>
+                    <li><span>........</span><br>.............</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service part here -->
+
+    <section class="services reveal" id="services"> 
+        <h3 class="heading"><span id="element">My</span> Services </h3>
+        <div class="container">
+            <div class="services-list">
+                <div id="webdesign">
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Design</h2>
+                    <p>I primarily focus on web development, specializing in HTML, CSS, JavaScript, Node.js, and MongoDB. Additionally, I have experience working with Bootstrap, PHP, Java, and MySQL.</p>
+                    <br><p>Learn more</p>
+                </div>
+                <div id="uiuxdesign">
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I am primarily focused on studying and mastering design using Figma.</p>
+                    <br><p>Learn more</p>
+                </div>
+                <div id="appdesign">
+                    <i class="fa-brands fa-google-play"></i>
+                    <h2>App Design</h2>
+                    <p>I primarily focus on app development, specializing in Flutter(Dart). Additionally, I have experience working with kotlin.</p>
+                    <br><p>Learn more</p>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- Portfolio part here -->
+
+    <section class="portfolio reveal" id="1">
+        <h3 class="heading">Portfolio </h3>
+        <h2>Web Designs,</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio reveal" id="2">
+        <h2>UI/UX Designs,</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio reveal" id="3">
+        <h2>App Designs,</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/depositphotos_110517740-stock-illustration-white-product-cardboard-package-box.jpg" alt="">
+                <div class="layer">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente minima eveniet</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me part here -->
+
+    <section class="Contact" id="4">
+        <h3 class="heading">Contact <span id="element">Me</span></h3>
+        <form action="">
+            <div class="back">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                    <div class="error-txt">Full Name can't be blank</div>
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off">
+                    <div class="error-txt email">Email Address can't be blank</div>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Phone number" id="Phone" class="item" autocomplete="off">
+                    <div class="error-txt">Phone number can't be blank</div>
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
+                    <div class="error-txt">Subject can't be blank</div>
+                </div>
+            </div>
+            <div class="textarea-field field">
+                <textarea id="message" cols="10" rows="5" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+                <div class="error-txt">Message can't be blank</div>
+            </div>
+            <button type="submit">Send Message</button>
+        </div>
+        </form>
+    
+    </section>
+    
+    <footer>Black private limited</footer>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://kit.fontawesome.com/96843aa1a1.js" crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
